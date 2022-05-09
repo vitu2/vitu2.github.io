@@ -1,107 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comidas</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Portfólio</title>
 </head>
+
 <body>
-    <header>
-        <a href="#" class="logo"><i class= "fas fa-utensils"></i>Comida</a>
 
-        <div id="menu-bar" class="fas fa-bars"></div>
-
-        <nav class="navbar">
-            <a href="#home">Inicio</a>
-            <a href="#speciality">Especialidade</a>
-            <a href="#popular">Populares</a>
-            <a href="#gallery">Galeria</a>
-            <a href="#review">Análise</a>
-            <a href="#order">Pedidos</a>
-        </nav>
-    </header>
-
-<section class="home" id="home">
-    <div class="content">
-        <h3>Comida Feita na hora </h3>
-        <p>Comida mais gostosa da região do estado de goias.</p>
-        <a href="#" class="btn">compre aqui</a>
-    </div>
-
-    <div class="image">
-        <img src="img/hamburguer - edit.jpg">
-    </div>
-
-</section>
-
-<section class="speciality" id="speciality">
-
-    <h1 class="heading"> Nossa <span>Especialidade</span> </h1>
-
-    <div class="box-container">
-
-      <div class="box">
-          <img src="img/s-img-1.jpg" alt="">
-          <div class="content">
-              <img src="img/s-1.png" alt="">
-              <h3>Hamburguer Gostoso</h3>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium voluptates atque officiis dolore ab, voluptatem dolorem vel quas. Fuga, corrupti?</p>
+  <header class="header_area">
+    <div class="main-menu">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img style="width: 10rem;" src="img/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="me-auto"></div>
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+              <a class="nav-link active" href="#">STACKS</a>
+              <a class="nav-link active" href="#">PROJETOS</a>
+              <a class="nav-link active" href="#">CONTATO</a>
+            </div>
           </div>
+        </div>
+      </nav>
+    </div>
+
+  </header>
+
+  <main class="main-site">
+    <section class="site-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-06 col-md-12 site-title">
+            <h2 class="site-text">Olá</h2>
+            <h1 class="title-text text-uppercase">eu me chamo vitor</h1>
+            <h2 class="title-text text-uppercase">estudante em desenvolvimento web</h2>
+            <div class="site-buttons">
+              <div class="d-flex flex-row flex-wrap">
+  <button type="button" class="btn button primary-button mr-4 text-uppercase">Contrate-me</button>
+    <a class="btn button secondary-button text-uppercase" href="Download/currículoVictor1.pdf" download="">baixar curriculo</a>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-06 col-md-12">
+            <img  style="width: 600px; height:300px;" src="img/img-banner-code.png" alt="Banner-img" class="img-fluid">
+            <p class="credit-text img-fluid">Creditos a:</p><a class="dev-banner img-fluid" href="http://www.freepik.com">Designed by pch.vector / Freepik</a>
+          </div>
+        </div>
       </div>
-    </a>
-
-      <div class="box">
-        <img src="img/s-img-2.jpg" alt="">
-        <div class="content">
-            <img src="img/s-2.png" alt="">
-            <h3>Pizza mais top da região</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium voluptates atque officiis dolore ab, voluptatem dolorem vel quas. Fuga, corrupti?</p>
+    </section>
+     
+   <section class="about-area">
+     <div class="container-fluid">
+       <div class="row">
+         <div class="col-lg-6 col-md-12">
+           <div class="about-image">
+             <img src="img/img-banner-code2.jpg" alt="codando" class="img-fluid">
+           </div>
+         </div>
+        <div class="col-lg-6 col-md-12 about-title">
+          <h2 class="text-uppercase">
+            
+          </h2>
         </div>
-    </div>
+         </div>
+       </div>
+     </div>
+   </section>
 
-    <div class="box">
-        <img src="img/s-img-3.jpg" alt="">
-        <div class="content">
-            <img src="img/s-3.png" alt="">
-            <h3>Sorvete Top pra matar o calor</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium voluptates atque officiis dolore ab, voluptatem dolorem vel quas. Fuga, corrupti?</p>
-        </div>
-    </div>
+  </main>
 
-    <div class="box">
-        <img src="img/s-img-4.jpg" alt="">
-        <div class="content">
-            <img src="img/s-4.png" alt="">
-            <h3>a bebida mais gelada da região</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium voluptates atque officiis dolore ab, voluptatem dolorem vel quas. Fuga, corrupti?</p>
-        </div>
-    </div>
-
-    <div class="box">
-        <img src="img/s-img-5.jpg" alt="">
-        <div class="content">
-            <img src="img/s-5.png" alt="">
-            <h3>alem de doces deliciosos</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium voluptates atque officiis dolore ab, voluptatem dolorem vel quas. Fuga, corrupti?</p>
-        </div>
-    </div>
-
-    <div class="box">
-        <img src="img/s-img-6.jpg" alt="">
-        <div class="content">
-            <img src="img/s-6.png" alt="">
-            <h3>e aquele café</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium voluptates atque officiis dolore ab, voluptatem dolorem vel quas. Fuga, corrupti?</p>
-        </div>
-    </div>
-
-    </div>
-
-</section>
-
-    <script src="javascript.js"></script>
+  <script src="jquery 3.6.0.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>

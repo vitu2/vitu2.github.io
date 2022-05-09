@@ -1,0 +1,18 @@
+html, body{
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+
+:root{
+    --primary-color: #4458dc;
+    --primary-color2: #854fee;
+    --title-color: #ff0000;
+    --text-color: #777777;
+    --border-color: #201f1f17;
+    --gradient-color: linear-gradient(90deg, rgba(46,71,140,1) 0%, rgba(156,25,209,1) 50%, rgba(55,128,193,1) 100%);
+    --shadow-color: 0px 10px 30px rgba(57, 56, 61, 0.205);
+    --font: 'Source Code Pro', monospace;
+}
