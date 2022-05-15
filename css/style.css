@@ -24,23 +24,23 @@
     
 }
 
-.img-fluid{
-    position: absolute;
-    left: 56%;
+.col-lg-06.col-md-12 .img-fluid{
+    display: block;
+    position: relative;
+    left: 49%;
     bottom: 21%;
 
+}
+
+.about-area .container-fluid .col-lg-6.col-md-12 .about-image img{
+    display: block;
+    left: 0%;
 }
 
 .dev-banner{
     position: absolute;
     left: 72%;
     text-decoration: none;
-}
-
-.credit-text{
-    position: absolute;
-    left: 65%;
-    bottom: 18.4%;
 }
 
 .header_area .main-menu .navbar{
@@ -59,16 +59,39 @@ top: 20%;
 }
 
 .primary-button{
-    display: inline-block;
+    display: block;
     position: absolute;
     top: 51%;
 }
 
 .secondary-button {
-    display: inline-block;
+    display: block;
     position: absolute;
     top: 51%;
     left: 26%;
+}
+
+.btn-download1{
+border-radius: 6px;
+padding-left: 12px;
+padding-right: 12px;
+padding-top: 6px;
+padding-bottom: 6px;
+border: none;
+background: linear-gradient(90deg, rgba(46,71,140,1) 0%, rgba(156,25,209,1) 50%, rgba(55,128,193,1) 100%);
+color: white;
+text-decoration: none;
+}
+
+.btn-download1:hover{
+    color: white;
+}
+
+.para{
+    display: block;
+    font-size: 102%;
+    font-weight: 500;
+    font-size: var(--font);
 }
 
 .header_area{
@@ -102,4 +125,29 @@ top: 20%;
 
 .button.secondary-button{
     box-shadow: 5px 7px 25px 0.6px rgba(0,0,0,0.62);
+}
+
+.site-main .about-area{
+ padding: 8rem 5rem;
+}
+
+.about-area .about-title h2 > span{
+    display:block;
+    font: normal bold 49px/60px var(--font);
+    letter-spacing: 11px;
+}
+
+.site-main .brand-area{
+    padding: 1rem 20rem;
+    margin-bottom: 4rem;
+}
+
+.site-main .brand-area .row .container-fluid .col-lg-4.col-md-6.col-sm-6 .single-brand{
+    display: flex;
+    justify-content: center;
+}
+
+.brand-area{
+    display: flex;
+    justify-content: center;
 }
